@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "oem-extra",
+	"version": "${version}",
+	"name": "OrigamiKings Enhancement Mod Extra",
+	"description": "This mod adds other things to OEM",
+	"authors": [
+		"OrigamiKing3612"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "Apache-2.0",
+	"icon": "assets/oem-extra/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.origamiking.mcmods.oemextra.OemExtraMain"
+		]
+	},
+	"mixins": [
+		"oem-extra.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.17",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*",
+		"oem": ">=0.0.5"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
