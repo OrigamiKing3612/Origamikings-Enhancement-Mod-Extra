@@ -106,7 +106,7 @@ publishing {
 		versionNumber = "1.0.0"
 		versionType = "release"
 		uploadFile = remapJar // With Loom, this MUST be set to `remapJar`
-		gameVersions = ["1.19.3"] // Must be an array, even with only one version
+		gameVersions = ["1.19.4"] // Must be an array, even with only one version
 		dependencies {
 			optional.project "ukeL0PYT"
 		}
